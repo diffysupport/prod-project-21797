@@ -1,0 +1,77 @@
+basic:
+    name: 'National Endowment for the Arts (NEA)'
+    environments:
+        production: 'https://www.arts.gov'
+        staging: 'https://artsgovd8stg.prod.acquia-sites.com'
+        development: 'https://artsgovd8dev.prod.acquia-sites.com'
+    breakpoints:
+        - 425
+        - 640
+        - 1024
+        - 1200
+        - 1440
+    pages:
+        - /
+        - /grants
+        - /impact
+        - /about
+        - /honors
+        - /stories/magazine/2023/1/celebration-artful-lives
+        - /impact/research/arts-data-profile-series/adp-34
+        - /stories/other/revisiting-ann-meier-baker-former-singing-sergeant-and-current-director-music-and-opera-national
+        - /initiatives/nea-big-read/heartland-memoir-working-hard-and-being-broke-richest-country-earth
+        - /girls-write-now-inc
+        - /stories/blog/2023/archives-conversation-dancer-and-choreographer-rohan-bhargava
+        - /intiatives/blue-star-museum/george-masons-gunston-hall
+        - /news/events/our-town-applicant-qa-6.27.23
+        - /grants/recent-grants/panelists/design-fy-2023-grants-panelists
+        - /initiatives/nea-big-read
+        - /impact/state-profiles
+        - /stories/magazine/2023/1/celebration-artful-lives/our-authentic-creative-selves
+        - /initiatives/poetry-out-loud/winners/2023/annelia-n-graham
+        - /news/press-releases/2023/national-endowment-arts-funds-25-rural-communities-through-citizens-institute-rural-design
+        - /honors/jazz/kenny-garrett
+        - /about/publications/nea-jazz-masters-40th-anniversary
+        - /impact/regional-profiles/western-states-arts-federation
+        - /about/leadership-staff/don-ball
+        - /impact/state-profiles/california
+        - /timeline/1980s/1986
+        - /stories/video/nea-national-heritage-fellowship-tribute-video-cedric-burnside
+        - /honors/heritage/nea-national-heritage-fellowship-nomination-form
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 0
+    scroll: false
+    headers:
+        - { value: '', header: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content:
+        - { type: title, selector: '' }
+    login:
+        type: none
+        click_element: false
+        click_element_selector: ''
+        login_url: ''
+        username: ''
+        password: ''
+        username_selector: ''
+        password_selector: ''
+        submit_selector: ''
+        after_login_selector: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
